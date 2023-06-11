@@ -4,7 +4,7 @@ import { useRef } from "react";
 export default function Products() {
     const divRef = useRef(null);
     return (
-        <div id="pricing" ref={divRef} className="flex items-center justify-center py-10 gap-16 max-lg:gap-5 max-lg:px-5 max-lg:flex-wrap">
+        <div id="pricing" ref={divRef} className="flex items-center justify-center py-10 gap-16 max-xl:px-6 max-xl:gap-6 max-lg:gap-5 max-lg:px-5 max-lg:flex-wrap">
             <ProdInfo name="NebulaBook Pro X1K Basic"
             price="Php 32,000"
             storage="256GB SSD"
