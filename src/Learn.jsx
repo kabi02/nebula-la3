@@ -1,7 +1,7 @@
 export default function LearnMore (){
 
     return (
-            <div className="container mx-auto py-4 px-32 mb-10">
+            <div id="learnmore" className="container mx-auto py-4 px-32 mb-10">
                 <div className="flex">
                     <div className="w-1/2 mr-14 relative">
                         <div className="h-0 pb-56">
